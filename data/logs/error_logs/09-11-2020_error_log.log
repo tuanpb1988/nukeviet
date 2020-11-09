@@ -1,0 +1,33 @@
+[Tue, 10 Nov 2020 00:41:17 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/functions.php] [LINE: 331]
+[Tue, 10 Nov 2020 00:41:17 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/functions.php] [LINE: 334]
+[Tue, 10 Nov 2020 00:41:17 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/functions.php] [LINE: 379]
+[Tue, 10 Nov 2020 00:41:17 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/functions.php] [LINE: 382]
+[Tue, 10 Nov 2020 00:41:17 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/request_uri.php] [LINE: 65]
+[Tue, 10 Nov 2020 00:41:17 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/request_uri.php] [LINE: 68]
+[Tue, 10 Nov 2020 00:41:17 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/request_uri.php] [LINE: 72]
+[Tue, 10 Nov 2020 00:41:17 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/request_uri.php] [LINE: 75]
+[Tue, 10 Nov 2020 00:41:17 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /vendor/vinades/nukeviet/Core/Encryption.php] [LINE: 28]
+[Tue, 10 Nov 2020 00:41:17 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /vendor/vinades/nukeviet/Core/Encryption.php] [LINE: 32]
+[Tue, 10 Nov 2020 00:41:17 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 51]
+[Tue, 10 Nov 2020 00:41:32 +0700] [localhost] [::1] [Error(1): Uncaught Error: Class 'Spreadsheet' not found in F:\XAMPP\htdocs\nukeviet\modules\news\funcs\listnew_download.php:6
+Stack trace:
+#0 F:\XAMPP\htdocs\nukeviet\index.php(343): require()
+#1 {main}
+  thrown] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 6]
+[Tue, 10 Nov 2020 00:41:44 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 50]
+[Tue, 10 Nov 2020 00:53:59 +0700] [localhost] [::1] [Notice(8): Undefined variable: block_config] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 19]
+[Tue, 10 Nov 2020 00:53:59 +0700] [localhost] [::1] [Notice(8): Undefined index: ] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 22]
+[Tue, 10 Nov 2020 00:53:59 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.nv4_vi__rows' doesn't exist in F:\XAMPP\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php:520
+Stack trace:
+#0 F:\XAMPP\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php(520): PDO->prepare('SELECT id, titl...', Array)
+#1 F:\XAMPP\htdocs\nukeviet\modules\news\funcs\listnew_download.php(24): NukeViet\Core\Database->prepare('SELECT id, titl...')
+#2 F:\XAMPP\htdocs\nukeviet\index.php(343): require('F:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 520]
+[Tue, 10 Nov 2020 01:05:19 +0700] [localhost] [::1] [Notice(8): Undefined index: STT] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 11]
+[Tue, 10 Nov 2020 01:05:19 +0700] [localhost] [::1] [Notice(8): Undefined index: news_title] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 12]
+[Tue, 10 Nov 2020 01:05:19 +0700] [localhost] [::1] [Notice(8): Undefined index: news_author] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 13]
+[Tue, 10 Nov 2020 01:05:19 +0700] [localhost] [::1] [Notice(8): Undefined index: news_date] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 14]
+[Tue, 10 Nov 2020 01:05:19 +0700] [localhost] [::1] [Notice(8): Undefined index: news_view] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 15]
+[Tue, 10 Nov 2020 01:05:19 +0700] [localhost] [::1] [Notice(8): Undefined index: news_rate] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 16]
+[Tue, 10 Nov 2020 01:11:59 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 47]

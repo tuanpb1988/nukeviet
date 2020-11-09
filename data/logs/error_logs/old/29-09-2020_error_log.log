@@ -1,0 +1,56 @@
+[Tue, 29 Sep 2020 22:28:02 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/functions.php] [LINE: 331]
+[Tue, 29 Sep 2020 22:28:02 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/functions.php] [LINE: 334]
+[Tue, 29 Sep 2020 22:28:02 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/functions.php] [LINE: 379]
+[Tue, 29 Sep 2020 22:28:02 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/functions.php] [LINE: 382]
+[Tue, 29 Sep 2020 22:28:02 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /vendor/vinades/nukeviet/Core/Encryption.php] [LINE: 28]
+[Tue, 29 Sep 2020 22:28:02 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /vendor/vinades/nukeviet/Core/Encryption.php] [LINE: 32]
+[Tue, 29 Sep 2020 22:28:03 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/request_uri.php] [LINE: 65]
+[Tue, 29 Sep 2020 22:28:03 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/request_uri.php] [LINE: 68]
+[Tue, 29 Sep 2020 22:28:03 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/request_uri.php] [LINE: 72]
+[Tue, 29 Sep 2020 22:28:03 +0700] [localhost] [::1] [Run-time notices(8192): Array and string offset access syntax with curly braces is deprecated] [FILE: /includes/request_uri.php] [LINE: 75]
+[Tue, 29 Sep 2020 22:28:05 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 25]
+[Tue, 29 Sep 2020 22:34:19 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 21]
+[Tue, 29 Sep 2020 22:51:34 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 45]
+[Tue, 29 Sep 2020 22:54:27 +0700] [localhost] [::1] [Run-time notices(8192): The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 40]
+[Tue, 29 Sep 2020 22:54:27 +0700] [localhost] [::1] [Run-time notices(8192): The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 41]
+[Tue, 29 Sep 2020 22:54:27 +0700] [localhost] [::1] [Warning(2): A non-numeric value encountered] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 40]
+[Tue, 29 Sep 2020 22:54:27 +0700] [localhost] [::1] [Error(1): Uncaught PhpOffice\PhpSpreadsheet\Exception: Invalid cell coordinate 1 in F:\XAMPP\htdocs\nukeviet\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php:40
+Stack trace:
+#0 F:\XAMPP\htdocs\nukeviet\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1248): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('1')
+#1 F:\XAMPP\htdocs\nukeviet\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1208): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('1')
+#2 F:\XAMPP\htdocs\nukeviet\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1109): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell(1)
+#3 F:\XAMPP\htdocs\nukeviet\modules\news\funcs\listnew_download.php(40): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue(1, 1)
+#4 F:\XAMPP\htdocs\nukeviet\index.php(343): require('F:\\XAMPP\\htdocs...')
+#5 {main}
+  thrown] [FILE: /vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Coordinate.php] [LINE: 40]
+[Tue, 29 Sep 2020 22:55:21 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 51]
+[Tue, 29 Sep 2020 22:57:52 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 50]
+[Tue, 29 Sep 2020 23:01:20 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 55]
+[Tue, 29 Sep 2020 23:05:55 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 56]
+[Tue, 29 Sep 2020 23:15:22 +0700] [localhost] [::1] [Notice(8): Undefined variable: objPHPExcel] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 50]
+[Tue, 29 Sep 2020 23:15:22 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to a member function getActiveSheet() on null in F:\XAMPP\htdocs\nukeviet\modules\news\funcs\listnew_download.php:50
+Stack trace:
+#0 F:\XAMPP\htdocs\nukeviet\index.php(343): require()
+#1 {main}
+  thrown] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 50]
+[Tue, 29 Sep 2020 23:15:36 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 61]
+[Tue, 29 Sep 2020 23:20:19 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 62]
+[Tue, 29 Sep 2020 23:25:10 +0700] [localhost] [::1] [Error(1): Uncaught Error: Class 'PHPExcel_Style_Alignment' not found in F:\XAMPP\htdocs\nukeviet\modules\news\funcs\listnew_download.php:19
+Stack trace:
+#0 F:\XAMPP\htdocs\nukeviet\index.php(343): require()
+#1 {main}
+  thrown] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 19]
+[Tue, 29 Sep 2020 23:25:54 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 63]
+[Tue, 29 Sep 2020 23:29:08 +0700] [localhost] [::1] [Error(1): Uncaught Error: Class 'PHPExcel_Style_Alignment' not found in F:\XAMPP\htdocs\nukeviet\modules\news\funcs\listnew_download.php:21
+Stack trace:
+#0 F:\XAMPP\htdocs\nukeviet\index.php(343): require()
+#1 {main}
+  thrown] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 21]
+[Tue, 29 Sep 2020 23:33:18 +0700] [localhost] [::1] [Error(1): Uncaught Error: Class 'Alignment' not found in F:\XAMPP\htdocs\nukeviet\modules\news\funcs\listnew_download.php:20
+Stack trace:
+#0 F:\XAMPP\htdocs\nukeviet\index.php(343): require()
+#1 {main}
+  thrown] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 20]
+[Tue, 29 Sep 2020 23:34:10 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 64]
+[Tue, 29 Sep 2020 23:35:11 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 65]
+[Tue, 29 Sep 2020 23:39:00 +0700] [localhost] [::1] [Warning(2): Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\nukeviet\vendor\maennchen\zipstream-php\src\ZipStream.php:462)] [FILE: /modules/news/funcs/listnew_download.php] [LINE: 54]
